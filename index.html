@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio von Nathalie Gassert, Machine Learning in Umweltprojekten" />
+  <link rel="icon" href="assets/images/favicon.ico" />
+  <title>Portfolio Nathalie Gassert</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+    }
+.header-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  background-color: #112e0d;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+.header-icon img {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.header-text p {
+  margin: 0.4rem 0 0;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      color: #112e0d;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.3rem;
+    }
+    .project {
+      background-color: white;
+      padding: 1rem;
+      border-left: 5px solid #e8713c;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+    .project h3 {
+      margin-top: 0;
+    }
+    .project span.icon {
+      font-size: 1.6rem;
+      margin-right: 0.5rem;
+    }
+    .skill-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    .skill-tag {
+      background-color: #e0f2f1;
+      color: #004d40;
+      padding: 0.5rem 1rem;
+      border-radius: 3px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .skill-tag:hover {
+      background-color: #b2dfdb;
+    }
+    footer {
+      background-color: #eee;
+      color: #666;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #112e0d;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.about-text {
+  flex: 1 1 300px;
+  min-width: 250px;
+}
+
+.about-image {
+  flex: 0 0 160px;
+}
+
+.about-image img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+  </style>
+</head>
+<body>
+
+<header style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 1.5rem; background-color: #112e0d; color: white; padding: 2rem 1rem;">
+  <div class="header-icon">
+    <img src="assets/images/deko-leaf.png" alt="Nathalie Gassert Portfolio" />
+  </div>
+  <div class="header-text">
+    <h1 style="margin: 0; font-size: 2.2rem;">Portfolio Nathalie Gassert</h1>
+    <p style="margin: 0.5rem 0 0; font-size: 1.2rem;">Praxisnahe KI-Anwendungen für Klima & Gesellschaft</p>
+  </div>
+</header>
+
+<main>
+<section>
+  <h2>Über mich</h2>
+  <div class="about-container">
+    <div class="about-text">
+      <p>
+      Ich bin begeisterte Python-Programmiererin mit Weiterbildung im Bereich Machine Learning und KI-Anwendungen. Mein Fokus liegt auf Klimaschutz und ökologische Anwendungen. 
+      Meine Projekte verbinden datengetriebene Analysen mit konkreten Umweltlösungen, von Tiererkennung über Regenwassermanagement bis zur Erkennung von Desinformation.
+    </p>
+    <div id="skill-content"></div>
+    <p>
+      Über zwei Jahrzehnte habe ich meinen eigenen Onlineshop im DIY-Bereich geführt. Von der Idee über die Umsetzung bis zum täglichen Betrieb. Dabei habe ich nicht nur technische, kaufmännische und kreative Aufgaben gemeistert, sondern vor allem gelernt, dran zu bleiben, selbstständig zu denken und Wege zu finden. 
+    </p><p>
+      Heute nutze ich dieses Fundament für neue Wege: Ich bringe meine Erfahrung, meine Kreativität und meine Neugier in datenbasierte Projekte ein -  besonders dort, wo Klimaschutz, gesellschaftlicher Nutzen und digitale Lösungen sich verbinden.
+      </p>
+    </div>
+    <div class="about-image">
+      <img src="assets/images/Nathalie Gassert.jpg" alt="Nathalie Gassert" />
+    </div>
+  </div>
+</section>
+
+  <section>
+    <h2>Fähigkeiten</h2>
+    <div class="skill-cloud">
+      <a href="#skill-python" class="skill-tag">Python</a>
+      <a href="#skill-ml" class="skill-tag">Machine Learning</a>
+      <a href="#skill-selbstorganisation" class="skill-tag">Selbstorganisation</a>
+      <a href="#skill-nachhaltigkeit" class="skill-tag">Nachhaltigkeit</a>
+      <a href="#skill-content" class="skill-tag">Content-Erstellung</a>
+    </div>
+  </section>
+
+  <section id="skill-ml">
+    <h2>Projekte</h2>
+
+    <div class="project">
+      <h3><span class="icon">🐆</span>Geopardenerkennung</h3>
+      <p>Individuelle Erkennung von Wildtieren per KI (Demo-Modell mit Bildvergleich)</p>
+    </div>
+
+    <div class="project">
+      <h3><span class="icon">💧</span>Regenwasserprojekt Denkendorf</h3>
+      <p>Potenzialanalyse für dezentrale Regenwassernutzung in Wohngebieten</p>
+    </div>
+
+    <div class="project">
+      <h3><span class="icon">📰</span>Fake-News-Klassifikation</h3>
+      <p>ML-Modell zur Erkennung klimaspezifischer Desinformation</p>
+    </div>
+
+  </section>
+
+  <section id="skill-python">
+    <h3>Python</h3>
+    <p>Im Rahmen meiner Weiterbildung zur Machine Learning Spezialistin habe ich fundierte Kenntnisse in Python erworben, inklusive Pandas, scikit-learn, Matplotlib und Geo-Bibliotheken wie osmnx.</p>
+  </section>
+
+  <section id="skill-selbstorganisation">
+    <h3>Selbstorganisation</h3>
+    <p>25 Jahre Selbständigkeit mit eigenem Onlineshop haben mich gelehrt, komplexe Aufgaben eigenverantwortlich zu strukturieren und effizient zu bewältigen, von Buchhaltung bis Produktpflege.</p>
+  </section>
+
+<section id="skill-nachhaltigkeit">
+  <h3>Was mich antreibt</h3>
+  <p>
+    Ich glaube daran, dass kleine, kluge Lösungen einen Unterschied machen können; besonders dann, wenn sie Umwelt und Technik verbinden. Mein Ziel ist nicht, perfekte Modelle zu bauen, sondern sinnvolle Werkzeuge: verständlich, nachvollziehbar und mit Blick auf das, was zählt: unser Klima, unsere Lebensqualität, unsere Zukunft.
+  </p>
+</section>
+
+
+  <section>
+    <h2>Kontakt</h2>
+    <p>Ich freue mich über Ihre Nachricht, gerne zu konkreten Projekten, gemeinsamen Vorhaben oder einem ersten Austausch rund um datenbasierte Umweltlösungen:</p>
+    <p><strong>Email:</strong> <a href="mailto:ngassert@web.de">ngassert@web.de</a></p>
+    <p><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/nathalie-gassert/">linkedin.com/in/nathalie-gassert</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/nath-ga">github.com/nath-ga</a></p>
+  </section>
+</main>
+
+<footer style="background-color: #112e0d; color: white; text-align: center; padding: 2rem 1rem; font-size: 0.9rem;">
+  &copy; 2025 Nathalie Gassert – Alle Rechte vorbehalten
+</footer>
+
+</body>
+</html>
